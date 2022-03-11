@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possui" directorySegmentName="seg_0" id="DCD4095E-9508-001C-3A5C-6A7C2B312E49">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>36AEA6E1-4137-C104-9764-2C4E60F6480C</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<sourcePk>41D0656D-4AE9-E2EE-59AE-DAF58CB60576</sourcePk>
+<targetPk>8E9C296D-C5F1-D8F7-76FC-DA9D968B625E</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>71EE0014-BBDB-A58D-9809-32D89C4F7575</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A001ABC9-FFDE-C050-5AF3-64B7A476652B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="42141077-7E85-DBAF-B1BD-F5F7F3968E10" name="T_SGV_DETALHE_CHAMADO">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>DE46A593-69EF-3E16-70E4-C303E7AFF44C</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_detalhe" id="39A75A41-F0D9-2A17-8EFE-CD8189995E4D">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<comment><![CDATA[Código do detalhe	]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>46E7B77A-18DB-3D7C-01E0-576DD28E85ED</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="andamento_chamado" id="FECEF4AB-2C6B-7B84-AF87-F484234867B6">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<comment><![CDATA[Status do andamento do chamado.  “A” (aberto) e o primeiro status criado no início, “E” (em atendimento), “C” (cancelado)”, “F” (fechado com sucesso), “X” (fechado com insatisfação do cliente)]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>CF077089-5B4D-0BD9-AC8E-8FBBE26C1F6B</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_chamado" id="1A3A32D1-0716-B4D8-1AE7-9B4798A02F98">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<generatorID>A2BB806A-CE1D-E889-81D0-B691D9DFAF19</generatorID>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>1D9BEE99-55F7-17D5-CE80-0C64E836D6C2</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<referedAttribute>66BE5E17-1DB6-B7D2-244F-1EAE8199AEDA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_funcionario" id="00D2CE90-8105-F2E3-38C4-3ECBC2A5F2DB">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<generatorID>A2BB806A-CE1D-E889-81D0-B691D9DFAF19</generatorID>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>900EC6ED-2813-FA5E-6872-D343E6D46AE5</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<referedAttribute>74723499-7D4E-B2F0-D385-AAADD6D4E031</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_departamento" id="9AB073AE-A88E-0147-BAA6-44B4BC75AE01">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<generatorID>A2BB806A-CE1D-E889-81D0-B691D9DFAF19</generatorID>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>AA6F5D62-3B2F-3688-8254-720471DD2D1F</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<referedAttribute>34877152-501E-F53B-209C-95E94445F4EA</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_filial" id="6A4A81AC-39E8-6445-41E6-AC39C3E2B10E">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<generatorID>A2BB806A-CE1D-E889-81D0-B691D9DFAF19</generatorID>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>D82F275D-86EC-D0C4-C2D5-A4633BEB7D1E</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<referedAttribute>BCC43A69-ED88-B3EE-E14D-1F3E951BC0C0</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_cliente" id="1A9CA34E-478A-3EF8-4980-05A92D4B70BC">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<generatorID>A2BB806A-CE1D-E889-81D0-B691D9DFAF19</generatorID>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>2D49B526-900D-1893-9FDA-2507352B7ED9</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<referedAttribute>766ADA47-55FC-56C2-B683-159D87AB9698</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="texto_atendimento_funcionario" id="87ADFDE2-8467-5FB2-F251-8012C18D78DD">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-08 00:01:01 UTC</createdTime>
+<comment><![CDATA[Texto do atendimento do funcionário]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1E5F9778-B99B-B7F4-CD26-C18AB5797F35" name="T_DETALHE_CHAMADO PK">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>98D44F03-A889-4A9B-0B7F-364553705A5A</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>39A75A41-F0D9-2A17-8EFE-CD8189995E4D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

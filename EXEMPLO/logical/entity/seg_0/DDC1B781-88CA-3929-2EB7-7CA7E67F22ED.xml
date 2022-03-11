@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DDC1B781-88CA-3929-2EB7-7CA7E67F22ED" name="T_SGV_VISUALIZACAO">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>0DFF3F59-0A37-810F-5323-D5D8CE3EBCDC</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_visualizacao" id="202243AF-ACE4-7AA6-EB6C-A9C6C7CD571C">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<comment><![CDATA[Código único de visualização]]></comment>
+<commentInRDBMS><![CDATA[Código único de visualização]]></commentInRDBMS>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>ACA389BE-E020-DE84-8870-9D5ED32500FE</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_visualizacao" id="30D3A3AA-A63D-EB29-CF9E-992FE156F12A">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 21:28:57 UTC</createdTime>
+<comment><![CDATA[Status da visualização. (A)tivo ou (I)nativo]]></comment>
+<commentInRDBMS><![CDATA[Status da visualização. (A)tivo ou (I)nativo]]></commentInRDBMS>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_visualizacao" id="20BC5BE1-AA42-33DB-92A4-7F7E09D388D5">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 21:31:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data da visualização do vídeo]]></commentInRDBMS>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_video" id="A9E5BBC0-1492-A68E-BF82-D3A9180B6D0D">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-08 01:11:17 UTC</createdTime>
+<comment><![CDATA[Codigo do video relacionado a um produto]]></comment>
+<commentInRDBMS><![CDATA[Código do vídeo]]></commentInRDBMS>
+<generatorID>D6FC2882-F66D-3FC2-300C-812F936D3A35</generatorID>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<referedAttribute>E04FD3B0-92BF-8122-C8C6-DAC844594727</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_usuario" id="FBABD4E1-5210-2FDC-A9BB-875258A07883">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-08 01:12:31 UTC</createdTime>
+<comment><![CDATA[Código do usuário]]></comment>
+<commentInRDBMS><![CDATA[Código do usuário]]></commentInRDBMS>
+<generatorID>59C15D0B-1ECE-239C-807E-914786627368</generatorID>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<referedAttribute>8128A8C9-98FB-BA57-6C4F-73DFACAA4BCE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20F9EDA4-0493-2E5A-2B46-B2E711E1B53B" name="T_VISUALIZACAO PK">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>408653C9-53CC-F675-DA98-D63E0A3F9AE3</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>202243AF-ACE4-7AA6-EB6C-A9C6C7CD571C,D6FC2882-F66D-3FC2-300C-812F936D3A35,59C15D0B-1ECE-239C-807E-914786627368</newElementsIDs>
+<usedAttributes>
+<attributeRef>202243AF-ACE4-7AA6-EB6C-A9C6C7CD571C</attributeRef>
+<attributeRef>A9E5BBC0-1492-A68E-BF82-D3A9180B6D0D</attributeRef>
+<attributeRef>FBABD4E1-5210-2FDC-A9BB-875258A07883</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

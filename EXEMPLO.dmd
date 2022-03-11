@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="EXEMPLO" id="D5693376-C379-B57E-35EB-1C833263D0D8" version="3.5">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-02-28 14:59:25 UTC</createdTime>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D5693376-C379-B57E-35EB-1C833263D0D8</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="790D9430-8BBD-FFF6-54B9-3965D1094860">
+<designStoragePath>C:\dl_settings</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="D0D09385-FCC8-9957-09EE-9942357075BB">
+<designStoragePath>C:\Users\fernandof\OneDrive - Checkmarx\Documentos\Diagrama\Diagrama</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

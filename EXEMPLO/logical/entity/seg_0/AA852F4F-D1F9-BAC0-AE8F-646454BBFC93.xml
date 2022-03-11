@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AA852F4F-D1F9-BAC0-AE8F-646454BBFC93" name="T_SGV_VIDEO">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>E3D8E1AE-C63F-1DAB-D33F-7BC7D33ACB40</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_video" id="E04FD3B0-92BF-8122-C8C6-DAC844594727">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<comment><![CDATA[Codigo do video relacionado a um produto]]></comment>
+<commentInRDBMS><![CDATA[Codigo do video relacionado a um produto]]></commentInRDBMS>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>D9395F5F-AE7F-6761-74E5-71B960C80961</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_produto" id="3364D4D1-7D10-7748-E75E-9AC9DECFC5CB">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<comment><![CDATA[Status do vídeo. (A)tivo ou (I)nativo]]></comment>
+<commentInRDBMS><![CDATA[Status do vídeo. (A)tivo ou (I)nativo]]></commentInRDBMS>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>5CCE6306-9A58-0A2F-DF1A-AF7BC94071EA</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_produto" id="ECA8C728-062F-F6C9-A0AE-B1EE4AEE0D23">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 21:15:23 UTC</createdTime>
+<comment><![CDATA[Codigo do cliente gerado automaticamente pelo SGBD]]></comment>
+<commentInRDBMS><![CDATA[Codigo do cliente gerado automaticamente pelo SGBD]]></commentInRDBMS>
+<generatorID>869F3B07-DEB0-04BB-CB54-EC5A66F4254F</generatorID>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<referedAttribute>AE33BCC8-96D0-A0C7-70E9-F8C7DF2CCDA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7A666ED5-4178-25B1-DCE6-D07AB8FE1772" name="T_VIDEO PK">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>2D8C7109-4FB8-44CF-3B16-64A605AB541F</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>E04FD3B0-92BF-8122-C8C6-DAC844594727</newElementsIDs>
+<usedAttributes>
+<attributeRef>E04FD3B0-92BF-8122-C8C6-DAC844594727</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

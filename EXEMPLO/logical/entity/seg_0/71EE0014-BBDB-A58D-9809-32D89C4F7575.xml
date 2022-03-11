@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71EE0014-BBDB-A58D-9809-32D89C4F7575" name="T_SGV_PRODUTO">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>9F31124A-4D27-0AEA-D67D-0DAD619F651B</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_produto" id="AE33BCC8-96D0-A0C7-70E9-F8C7DF2CCDA3">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<comment><![CDATA[Codigo do cliente gerado automaticamente pelo SGBD]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>1DE27E13-EED7-C76C-CBE3-914C59274412</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="6B1D7044-0AF0-218F-DEB1-65EE5816CCCB">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<comment><![CDATA[Descrição resumida do produto]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>39DA7839-A17F-05BD-FCD4-D7F1740D0E8F</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="desc_completa" id="550DB50A-04AC-26B0-ED92-6DA614DD5F3C">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<comment><![CDATA[Descrição completa do produto]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>40D00070-9CF2-23BC-3F34-0399C78BD20C</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_barras" id="E6D33A4D-794B-98A0-10BB-39733AD712E6">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<comment><![CDATA[Código de barras do produto. Padrão EAN13]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>C67F5A50-3A7B-AF3B-9ED4-1146CFCE757B</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vlr_unitario" id="F2170AB7-70EB-CF5A-83C4-27BB80DA3A55">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<comment><![CDATA[Valor unitario do produto ]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>5529263F-A1C2-E0DC-04F3-7834A6DDC08B</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>17</dataTypeScale>
+<ownDataTypeParameters>,2,17</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_produto" id="24CB7445-40F8-142B-CD1A-AF16B2BEE928">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<comment><![CDATA[Status do produto. (A)tivo ou (I)nativo]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>629C7AD5-E228-FD85-E9BC-12C89F0F2CEF</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_categoria" id="75C1F7CD-C8E0-5698-5FBC-1302F197A9B3">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<comment><![CDATA[Chave estrangeira: Código da categoria]]></comment>
+<generatorID>DCD4095E-9508-001C-3A5C-6A7C2B312E49</generatorID>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>66E15B15-9D77-8D63-D900-D7F6F72842F6</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<referedAttribute>C200FCA7-861C-9709-4512-8C53E3B51590</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="41D0656D-4AE9-E2EE-59AE-DAF58CB60576" name="T_PRODUTO PK">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>AE417B60-4926-42CC-7DCF-630A324E48E5</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE33BCC8-96D0-A0C7-70E9-F8C7DF2CCDA3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

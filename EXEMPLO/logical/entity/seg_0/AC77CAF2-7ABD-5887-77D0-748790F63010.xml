@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AC77CAF2-7ABD-5887-77D0-748790F63010" name="T_SGV_FUNCIONARIO">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>909BF6EA-13E0-CAEE-B2EF-1FEA7C484657</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_funcionario" id="4A47AAE3-019A-3713-3537-EC0A272319BD">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<comment><![CDATA[Código do funcionário]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>838EA2EA-F965-09BC-C943-86D97C97EF8E</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_funcionario" id="947BA8BA-0789-0B04-5623-6E253A0BE33B">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<comment><![CDATA[Nome do funcionário]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>D49C2588-B4DF-D7B1-0176-69D09560411E</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="AA50C095-6E7A-2069-2EAA-C9B9624985CA">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<comment><![CDATA[Data de Nascimento]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>08C8FC0A-3342-7457-8A83-EEF9ECE66989</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tel_funcionario" id="53D480A9-F5D2-A43D-A20D-4CB402008C43">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<comment><![CDATA[Telefone do funcionário]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>7495D167-34E4-9C2D-424D-D7764AF560DA</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_func" id="8FB11E27-01A4-5205-8BF5-9C03B465F34A">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<comment><![CDATA[Email do funcionário	]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>2E3BEB68-7A4F-BAE7-C711-F601F846D210</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_cargo" id="2E2B802C-092E-AC52-21A0-AA6BF2F858D6">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<comment><![CDATA[Código do cargo ]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>CECF9552-44FD-3552-1B19-EDF37FA517E5</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_departamento" id="7BC9E00E-FE58-67F1-54B7-A330FFAF30C3">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<comment><![CDATA[Código do departamento]]></comment>
+<generatorID>E56F60CE-3DC4-8746-739E-A8E5764DAE60</generatorID>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>45FCEBE7-5C22-6E8B-EA13-A27EFFBFAB07</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<referedAttribute>6151C0A8-968B-1CB4-6A01-44F0F19343ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_filial" id="465E3C72-C509-76A4-D6F9-8C0EB729A46F">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<comment><![CDATA[Código da filial]]></comment>
+<generatorID>E56F60CE-3DC4-8746-739E-A8E5764DAE60</generatorID>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>B73109D2-36DF-2E26-AF0A-52AC714E35D5</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<referedAttribute>4B209098-7F5F-5A2C-08D8-7EA83634EE7A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03A355AF-EE7F-D215-924A-208F89681281" name="T_FUNCIONARIO PK">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:21:00 UTC</createdTime>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<importedID>B5FC0AF6-700A-5A92-CF05-33323A623116</importedID>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4A47AAE3-019A-3713-3537-EC0A272319BD</attributeRef>
+<attributeRef>7BC9E00E-FE58-67F1-54B7-A330FFAF30C3</attributeRef>
+<attributeRef>465E3C72-C509-76A4-D6F9-8C0EB729A46F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

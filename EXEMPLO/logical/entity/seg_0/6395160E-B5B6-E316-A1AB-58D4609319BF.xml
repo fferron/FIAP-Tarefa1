@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6395160E-B5B6-E316-A1AB-58D4609319BF" name="T_SGV_CATEGORIA_VIDEO">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 23:07:20 UTC</createdTime>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_categoria_video" id="CFC71A6C-9525-AC56-BFB0-2338CD9E42FC">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 23:07:20 UTC</createdTime>
+<comment><![CDATA[Codigo da sub-categoria do vídeo]]></comment>
+<commentInRDBMS><![CDATA[Codigo da categoria do produto ]]></commentInRDBMS>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="desc_categoria_video" id="C5B9DBE2-6A32-8A6A-4781-71B881A85C31">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 23:07:20 UTC</createdTime>
+<comment><![CDATA[Descrição da sub-categoria]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="139E8D81-A6BB-7612-2669-12C624C132F8">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 23:07:20 UTC</createdTime>
+<comment><![CDATA[Status da categoria. Valor (A)tivo ou (I)nativo]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_video" id="F7F2A9D8-12D5-3802-C52A-0A7AE676AE1C">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-08 01:13:17 UTC</createdTime>
+<comment><![CDATA[Codigo do video relacionado a um produto]]></comment>
+<generatorID>34C647B8-840F-2383-FF96-9D996D6FF983</generatorID>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<referedAttribute>E04FD3B0-92BF-8122-C8C6-DAC844594727</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="343F51AF-A848-EB71-C9A3-A3F2AC2F05A9" name="T_CATEGORIA PK">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 23:07:20 UTC</createdTime>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CFC71A6C-9525-AC56-BFB0-2338CD9E42FC</attributeRef>
+<attributeRef>F7F2A9D8-12D5-3802-C52A-0A7AE676AE1C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

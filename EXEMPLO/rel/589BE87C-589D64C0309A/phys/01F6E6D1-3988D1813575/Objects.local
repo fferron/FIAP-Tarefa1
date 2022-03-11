@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v20c.StorageDesignOraclev20c>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" propertyParentId="01F6E6D1-3988D1813575" propertySourceId="" propertyTargetId=""/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" propertyParentId="01F6E6D1-3988D1813575" propertySourceId="" propertyTargetId=""/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.StructuredTypeProxyOraclev10g" propertyParentId="01F6E6D1-3988D1813575" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.storage.oracle.v20c.StorageDesignOraclev20c>

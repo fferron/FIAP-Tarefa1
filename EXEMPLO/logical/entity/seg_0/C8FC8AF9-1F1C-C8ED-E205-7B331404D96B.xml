@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C8FC8AF9-1F1C-C8ED-E205-7B331404D96B" name="T_SGV_USUARIO">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 21:32:51 UTC</createdTime>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_usuario" id="8128A8C9-98FB-BA57-6C4F-73DFACAA4BCE">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 21:32:51 UTC</createdTime>
+<comment><![CDATA[Código do usuário]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="login" id="1247C23A-8900-E49C-8078-42527CA2CE98">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 21:32:51 UTC</createdTime>
+<comment><![CDATA[Login do cliente. 10 dígitos]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="senha" id="1C3DCE0D-B6D3-E4F9-75D4-18882C6A3A89">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 21:32:51 UTC</createdTime>
+<comment><![CDATA[Password criptografado]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_usuario" id="1A63BFAB-E94E-6E41-5039-875FD51911C2">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 21:42:24 UTC</createdTime>
+<comment><![CDATA[Status do usuário no sistema. (A)tivo ou (I)nativo]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inclusao" id="792DDAB1-F398-4200-B9B6-558E6D53146A">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 21:32:51 UTC</createdTime>
+<comment><![CDATA[Data da inclusão do usuário]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_ultimo_login" id="8B435F04-DFA3-586A-D957-AA92AC8B9119">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 22:38:17 UTC</createdTime>
+<comment><![CDATA[Armazena a data do último login do usuário]]></comment>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_cliente" id="6528C82F-7F21-0B3B-D97E-40543726E7C2">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 22:47:37 UTC</createdTime>
+<comment><![CDATA[Chave estrangeira: Código do cliente]]></comment>
+<generatorID>E007F6AF-4D8A-78C2-B48A-30DD20B0BA66</generatorID>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<referedAttribute>AAFB1F71-4E80-8B37-BD49-5E22EE642B93</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7AF1E7C6-1F21-53AE-47CB-4A5A6C02CC64" name="T_USUARIO PK">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 21:32:51 UTC</createdTime>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+<engineerTo>
+<item key="6E2A85A6-8CFC-C102-B774-5CDD1C802950" value="true"/>
+<item key="589BE87C-66FD-8588-F587-589D64C0309A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>8128A8C9-98FB-BA57-6C4F-73DFACAA4BCE</newElementsIDs>
+<usedAttributes>
+<attributeRef>8128A8C9-98FB-BA57-6C4F-73DFACAA4BCE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

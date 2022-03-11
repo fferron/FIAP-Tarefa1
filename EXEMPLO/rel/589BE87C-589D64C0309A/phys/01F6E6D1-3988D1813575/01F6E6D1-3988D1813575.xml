@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StorageDesignOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.StorageDesignOraclev20c" name="Oracle Database 21c" id="D0D88E1C-1A06-2E14-48B3-C51D322C3778" siteID="01F6E6D1-21D0-CFBD-ABDD-3988D1813575" siteName="Oracle Database 21c" siteType="17">
+<createdBy>fernandof</createdBy>
+<createdTime>2022-03-07 20:19:17 UTC</createdTime>
+<ownerDesignName>EXEMPLO</ownerDesignName>
+</StorageDesignOraclev20c>
